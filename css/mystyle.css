@@ -62,7 +62,7 @@ filter: blur(1px);
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1298px) {
     .shippingtext1{
         display: none;
     }
@@ -123,7 +123,7 @@ filter: blur(1px);
     }
 }
 
-@media only screen and (min-width: 769px) or (orientation: portrait) {
+@media only screen and (min-width: 1299px) {
     .shippingtext2{
         display: none;
     }
