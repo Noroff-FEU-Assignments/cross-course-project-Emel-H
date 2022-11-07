@@ -1,12 +1,12 @@
 body{
-    min-width: 1000px;
     font-family: Arial, Helvetica, sans-serif;
 }
 nav{
     background-color: rgba(10, 54, 65, 0.78);
     color: white;
-    height: 41px;
+    height:fit-content;
     font-size:x-large;
+    vertical-align:bottom;
 }
 hr{
     height:5px;
@@ -30,18 +30,18 @@ ul {
     margin-left: 10%;
     margin-right: 10%;
     list-style-type: none;
-    padding: 0;
+    vertical-align: middle;
 }
 #menu li{
-    margin: 10px;
+    margin: 5px;
     display: inline;
-    padding: 8px;
+    vertical-align: middle;
     
 }
 #searchbar  {
     float: right;
     background-color: rgba(252, 122, 116,1);
-    font-size: x-large;
+    font-size: large;
     width: 30%;
     filter: invert();
     
@@ -53,26 +53,137 @@ h1{
     font-weight: lighter;
 }
 
-#about p {
-    margin-left: 30%;
-    margin-right: 30%;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 #hovereffect img:hover{
 filter: blur(1px);
-}
-
-#Sortby li{
-    padding: 20px;
-    display: inline;
-    vertical-align:text-bottom;
-    text-align: center;
 }
 
 #borders img{
     border:1px solid black;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .shippingtext1{
+        display: none;
+    }
+    .banner{
+        display:grid;
+        grid-template-columns: 50% 50%;
+    }
+    .footer{
+        display:grid;
+        grid-template-columns: 100%;
+    }
+    .Mainmenu{
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        display:grid;
+        grid-template-columns: 100%;
+        grid-row-gap: 20px;
+    }
+
+    .Mensjacketsmenu{
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        display:grid;
+        grid-template-columns: 50% 50%;
+        grid-row-gap: 20px;
+    }
+
+    .jacketpage{
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        display:grid;
+        grid-template-columns: 100%;
+        grid-row-gap: 20px;
+    }
+    .checkout{
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        display:grid;
+        grid-template-columns: 100%;
+        grid-row-gap: 20px;
+    }
+
+    #about p {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #Sortby li{
+        padding: 8px;
+        display: inline;
+        vertical-align:text-bottom;
+        text-align: center;
+        font-size: small;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .shippingtext2{
+        display: none;
+    }
+    .banner{
+        display:grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+    .footer{
+        display:grid;
+        grid-template-columns: 67% 33%;
+    }
+    .Mainmenu{
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        display:grid;
+        grid-template-columns: 50% 50%;
+        grid-row-gap: 40px;
+    }
+    .Mensjacketsmenu{
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        display:grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-row-gap: 40px;
+    }
+    .jacketpage{
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        display:grid;
+        grid-template-columns: 60% 40%;
+        grid-row-gap: 40px;
+    }
+    .checkout{
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        display:grid;
+        grid-template-columns: 40% 60%;
+        grid-column-gap: 40px;
+        grid-auto-flow: dense;
+  
+    }
+
+    #about p {
+        margin-left: 30%;
+        margin-right: 30%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #Sortby li{
+        padding: 20px;
+        display: inline;
+        vertical-align:text-bottom;
+        text-align: center;
+        font-size:medium;
+    }
+}
+
 
 /* this is code borrowed from https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/ to help create a slider */ 
 .slider {
@@ -88,3 +199,4 @@ filter: blur(1px);
     flex-shrink: 0;
     height: 100%;
   }
+  
