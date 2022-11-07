@@ -1,0 +1,90 @@
+body{
+    min-width: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: rgba(10, 54, 65, 0.78);
+    color: white;
+    height: 41px;
+    font-size:x-large;
+}
+hr{
+    height:5px;
+    background-color: rgba(10, 54, 65, 0.78);
+}
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size:larger;
+}
+h3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size:medium;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+ul {
+    margin-left: 10%;
+    margin-right: 10%;
+    list-style-type: none;
+    padding: 0;
+}
+#menu li{
+    margin: 10px;
+    display: inline;
+    padding: 8px;
+    
+}
+#searchbar  {
+    float: right;
+    background-color: rgba(252, 122, 116,1);
+    font-size: x-large;
+    width: 30%;
+    filter: invert();
+    
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+
+#about p {
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#hovereffect img:hover{
+filter: blur(1px);
+}
+
+#Sortby li{
+    padding: 20px;
+    display: inline;
+    vertical-align:text-bottom;
+    text-align: center;
+}
+
+#borders img{
+    border:1px solid black;
+}
+
+/* this is code borrowed from https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/ to help create a slider */ 
+.slider {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    display:flex;
+    overflow-x:scroll;
+    
+  }
+  .slide {
+    width: 30%;
+    flex-shrink: 0;
+    height: 100%;
+  }

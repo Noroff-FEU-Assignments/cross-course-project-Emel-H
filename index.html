@@ -1,13 +1,123 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My first website</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+    <title>RainyDays</title>
   </head>
   <body>
-    <h1>Hello world!</h1>
-    <p>Welcome to my first website.</p>
-    <h2>Web Security</h2>
-    <p id="web-security-question">How would you advise a potential client to secure his/her website from web security attacks? Note: the word count for your answer should not be greater than 250 words</p>
-    <p id="web-security-answer">[Web security requires due diligence in the design, development, sustaining, and operation of a website. It is the act of protecting the website and its users from malicious attacks, disruptions, destruction, and modifications.  There are many steps that can be done to ensure this protection of the websites. We have methods of protecting against cross-site scripting attacks. This is when the attackers try to inject a script to execute code on our website and gain access to sensitive information. To prevent this, we can avoid the use of markups such as "script" in HTML. Another typical attack method is SQL injection. This is when we provide a text field that talks to our database, such as a username and password field, and the attackers use this to inject code into our SQL database instead of sending valid information. To protect against this, we can use escaping of such fields to remove their maliciousness, this way the name entered will be a strange query, but disabled from its malicious nature. A common attack that we can protect against is the denial-of-service attack. This is when the website is flooded by requests, so it overloads the server. Through gateway technology, one can identify malicious traffic and disable it. In general, there are many other threats that we can look at and protect against as at the end of the day, the internet can be a malicious environment. ]</p>
+    <header>
+      <table width="100%">
+        <tr>
+            <td width="33%" style="vertical-align:top">Free shippinng on orders over $180 | 30 days free returns.</td>
+            <td width="33%" style="text-align:center"><a href="index.html"><img width="239" src="images/RainyDays_Logo.png" alt="rainy-days-logo"> </a><td>
+            <td width="33%" style="text-align: right;"><img height="56" src="images/fav-account-cart.png" alt="icons top page"><a href="check-out.html" ><img height="56" src="images/cart.png" alt="cart icons top page"></a></td>
+        </tr>
+      </table>
+      <nav>
+        <ul id="menu">
+          <li>Women</li>
+          <li><a href="mens-jacket.html">Men</a></li>
+          <li>Kids</li>
+          <li> <input type="search" id="searchbar" name="search" value="Search" ></li>
+        </ul>
+      </nav>
+      
+    </header>
+    <main>
+      <img src="images/mountain-redjacket.jpg" id="mountain-redjacket" width="100%" height="100%">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <h1 style="margin-left:10%;">BEST SELLER</h1>
+      <div class="slider">
+        <div class="slide" id="slide-1"><div style="text-align: center;"><a href="jacket-page.html"><img width="60%"  src="images/redjacket.png"></a></div> <p style="margin-left:20% ;"> Lightweight Jacket</p><p style="margin-left:20% ;">$179</p></div>
+        <div class="slide" id="slide-2"><div style="text-align: center;"><img width="60%"  src="images/snowmobile.png"></div> <p style="margin-left:20% ;"> Snowmobile Jacket</p><p style="margin-left:20% ;">$199</p></div>
+        <div class="slide" id="slide-3"><div style="text-align: center;"><img width="60%"  src="images/adventurejacket.png"></div> <p style="margin-left:20% ;"> Adventure Jacket</p><p style="margin-left:20% ;">$199</p></div>
+        <div class="slide" id="slide-4"><div style="text-align: center;"><img width="60%"  src="images/Winterjacket.png"></div> <p style="margin-left:20% ;"> Winter Jacket</p><p style="margin-left:20% ;">$300</p></div>
+        <div class="slide" id="slide-4"><div style="text-align: center;"><img width="60%"  src="images/Jacket2.png"></div> <p style="margin-left:20% ;"> Adrenaline Race Cape</p ><p style="margin-left:20% ;">$179</p></div>
+      </div>
+      
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <table style="margin-left:10%; margin-right:10%">
+        <tr>
+          <td width="25%"> <div style="text-align:center;"><img width="80%" src="images/womansjacket.png"> <p> Lightweight Jacket</p></div></td>
+          <td width="25%"> <div style="text-align:center;" id="hovereffect"><a href="mens-jacket.html" ><img width="80%" src="images/mensjacket.png"></a> <p> Lightweight Jacket</p></div></td>
+        </tr>
+        <tr>
+          <td width="25%"> <div style="text-align:center;"><img width="80%" src="images/kidsJacket.png"> <p> Lightweight Jacket</p></div></td>
+          <td width="25%"> <div style="text-align:center;"><img width="80%" src="images/newforwinter.jpg"> <p> Lightweight Jacket</p></div></td>
+        </tr>
+      </table>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    </main>
+    <footer>
+      <hr>
+
+      <table width="100%">
+        <tr>
+          <td width="67%" style="vertical-align:top;">
+            <br>
+            <br>
+            <h2>GET EXCLUSIVE OFFERS AND NEWS!</h2>
+            <input type="email" id="emailsubscribe" name="emailsubscribe" value="ENTER EMAIL HERE"><button type="button" onclick="alert('Thank you for subscribing!')">Submit</button>
+            <br>
+            <input type="checkbox" id="C" name="C" value="C"/>    
+                 <label>Submit your email- to recive updates on new product, news letter, special promotion, sales and many more. </label> <br>
+            <p>By signing up,  you agree on our <u>privacy policy</u>. you may <u>unsubscribe</u> at any time.  </p>
+          </td>
+          <td width="33%" style="text-align: center;">
+            <h3>FOLLOW US</h3>
+            <a href="https://www.instagram.com"><img width="50" src="images/socialmedia_insta.png" ></a>
+            <a href="https://www.facebook.com"><img width="50" src="images/socialmedia_face.png" ></a>
+            <a href="https://www.twitter.com"><img width="50" src="images/socialmedia_twitter.png" ></a>
+          </td>
+        </tr>
+      </table>
+      <br>
+      <br>
+      <table width="100%">
+        <tr>
+          <td width="33%" style="vertical-align:top">
+            <ul>
+              <li><strong>Customer Service</strong></li>
+              <li>FAQ</li>
+              <li><a href="about.html">About Us</a></li>
+              <li>Track My Order</li>
+            </ul>
+          </td>
+          <td width="33%" style="vertical-align:top">
+            <ul>
+              <li><a href="contact.html"><strong>Contact Us</strong></a></li>
+              <li>E-mail: Support@raindays.com</li>
+              <li>We will come back to you as soon as possible.</li>
+              <li>+47 00 00 00 00</li>
+            </ul>
+          </td>
+          <td width="33%"></td>
+      </tr>
+    </table>
+    <br>
+    <br>
+    </footer>
+
   </body>
 </html>
