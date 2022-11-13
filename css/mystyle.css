@@ -6,7 +6,7 @@ nav{
     color: white;
     height:fit-content;
     font-size:x-large;
-    vertical-align:bottom;
+    vertical-align:center;
 }
 hr{
     height:5px;
@@ -108,6 +108,14 @@ filter: blur(1px);
         grid-template-columns: 100%;
         grid-row-gap: 20px;
     }
+    .purchase-success{
+        margin-left: 20%;
+        margin-right: 20%;
+        width: 60%;
+        display:grid;
+        grid-template-columns: 100%;
+        grid-row-gap: 20px;
+    }
 
     #about p {
         margin-left: 10%;
@@ -168,6 +176,14 @@ filter: blur(1px);
         grid-column-gap: 40px;
         grid-auto-flow: dense;
   
+    }
+    .purchase-success{
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        display:grid;
+        grid-template-columns: 20% 50%;
+        grid-column-gap: 30%;
     }
 
     #about p {
