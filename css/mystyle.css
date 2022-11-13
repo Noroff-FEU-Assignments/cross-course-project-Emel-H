@@ -1,6 +1,12 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+#sitelogo{
+    text-align:center;
+}
+#icons{
+    text-align: right;
+}
 nav{
     background-color: rgba(10, 54, 65, 0.78);
     color: white;
@@ -16,6 +22,7 @@ h2{
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 100;
     font-size:larger;
+    font-weight: bold;
 }
 h3{
     font-family:Arial, Helvetica, sans-serif;
@@ -31,6 +38,9 @@ ul {
     margin-right: 10%;
     list-style-type: none;
     vertical-align: middle;
+}
+#menu{
+    border: 5px solid  rgba(10, 54, 65, 0.0);
 }
 #menu li{
     margin: 5px;
@@ -60,11 +70,62 @@ filter: blur(1px);
 #borders img{
     border:1px solid black;
 }
+#text-center{
+    text-align:center ;
+}
 
+#thinline{
+    height: 1px; 
+    width:90%;
+}
+#border{
+    border: 1px solid black;
+}
+#halfwidth{
+    width: 50%;
+}
+
+#CO-input-full{
+    width:95%
+}
+#CO-input-left{
+    width:45%; 
+    margin-right: 3%;
+}
+#CO-input-right{
+    width:45%
+}
+
+#bothmargin35{
+    margin-left:35% ;
+    margin-right:35% ;
+}
+#margin45{
+    margin-left:45% ;
+}
+
+#default-alignment {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    text-align: center;
+}
+
+.purchase-success h3{
+    font-weight:bold; 
+    border: 1px solid black;
+}
+.purchase-success span{
+    float: right;
+}
 
 @media only screen and (max-width: 1298px) {
     .shippingtext1{
         display: none;
+    }
+    .shippingtext2{
+        vertical-align:top; 
+        text-align: center;
     }
     .banner{
         display:grid;
@@ -81,6 +142,7 @@ filter: blur(1px);
         display:grid;
         grid-template-columns: 100%;
         grid-row-gap: 20px;
+        text-align: center;
     }
 
     .Mensjacketsmenu{
@@ -90,6 +152,7 @@ filter: blur(1px);
         display:grid;
         grid-template-columns: 50% 50%;
         grid-row-gap: 20px;
+        text-align: center;
     }
 
     .jacketpage{
@@ -107,6 +170,11 @@ filter: blur(1px);
         display:grid;
         grid-template-columns: 100%;
         grid-row-gap: 20px;
+    }
+    .checkout form{
+        margin-left: 10%; 
+        margin-right: 10%; 
+        width: 80%;
     }
     .purchase-success{
         margin-left: 20%;
@@ -128,10 +196,14 @@ filter: blur(1px);
         vertical-align:text-bottom;
         text-align: center;
         font-size: small;
+        text-align: center;
     }
 }
 
 @media only screen and (min-width: 1299px) {
+    .shippingtext1{
+        vertical-align:top;
+    }
     .shippingtext2{
         display: none;
     }
@@ -150,6 +222,7 @@ filter: blur(1px);
         display:grid;
         grid-template-columns: 50% 50%;
         grid-row-gap: 40px;
+        text-align: center;
     }
     .Mensjacketsmenu{
         margin-left: 10%;
@@ -158,6 +231,7 @@ filter: blur(1px);
         display:grid;
         grid-template-columns: 33% 33% 33%;
         grid-row-gap: 40px;
+        text-align: center;
     }
     .jacketpage{
         margin-left: 10%;
@@ -176,6 +250,11 @@ filter: blur(1px);
         grid-column-gap: 40px;
         grid-auto-flow: dense;
   
+    }
+    .checkout form{
+        margin-left: 10%; 
+        margin-right: 10%; 
+        width: 80%;
     }
     .purchase-success{
         margin-left: 10%;
@@ -197,6 +276,7 @@ filter: blur(1px);
         vertical-align:text-bottom;
         text-align: center;
         font-size:medium;
+        text-align: center;
     }
 }
 
@@ -208,11 +288,18 @@ filter: blur(1px);
     width: 80%;
     display:flex;
     overflow-x:scroll;
-    
   }
   .slide {
     width: 30%;
     flex-shrink: 0;
     height: 100%;
+    
+  }
+  .slide img{
+    margin-left: 10%;
+    text-align: center;
+  }
+  .slide p{
+    margin-left: 20%;
   }
   
