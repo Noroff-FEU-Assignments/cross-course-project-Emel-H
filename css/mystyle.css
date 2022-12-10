@@ -131,90 +131,91 @@ filter:grayscale();
     float: right;
 }
 
-.shippingtext1{
-    vertical-align:top;
-}
-.shippingtext2{
-    display: none;
-}
-.banner{
-    display:grid;
-    grid-template-columns: 33% 33% 33%;
-}
-footer{
-    display:grid;
-    grid-template-columns: 67% 33%;
-}
-.Mainmenu{
-    margin-left: 0%;
-    margin-right: 0%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    display:grid;
-    grid-template-columns: 50% 50%;
-    grid-row-gap: 20px;
-    text-align: center;
-}
-.Mensjacketsmenu{
-    margin-top: 10%;
-    margin-bottom: 10%;
-    display:inline-flex;
-    flex-flow: wrap;
-    grid-row-gap: 40px;
-    text-align: center;
-}
-.jacketpage{
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    width: 80%;
-    display:grid;
-    grid-template-columns: 60% 40%;
-    grid-row-gap: 40px;
-}
-.checkout{
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    width: 80%;
-    display:grid;
-    grid-template-columns: 40% 60%;
-    grid-column-gap: 40px;
-    grid-auto-flow: dense;
+@media only screen and (min-device-width: 813px) {
+    .shippingtext1{
+        vertical-align:top;
+    }
+    .shippingtext2{
+        display: none;
+    }
+    .banner{
+        display:grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+    footer{
+        display:grid;
+        grid-template-columns: 67% 33%;
+    }
+    .Mainmenu{
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        display:grid;
+        grid-template-columns: 50% 50%;
+        grid-row-gap: 20px;
+        text-align: center;
+    }
+    .Mensjacketsmenu{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        display:inline-flex;
+        flex-flow: wrap;
+        grid-row-gap: 40px;
+        text-align: center;
+    }
+    .jacketpage{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 80%;
+        display:grid;
+        grid-template-columns: 60% 40%;
+        grid-row-gap: 40px;
+    }
+    .checkout{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 80%;
+        display:grid;
+        grid-template-columns: 40% 60%;
+        grid-column-gap: 40px;
+        grid-auto-flow: dense;
+  
+    }
+    .checkout form{
+        margin-left: 10%; 
+        margin-right: 10%; 
+        width: 80%;
+    }
+    .purchase-success{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 80%;
+        display:grid;
+        grid-template-columns: 20% 50%;
+        grid-column-gap: 30%;
+    }
 
+    .about p {
+        margin-left: 30%;
+        margin-right: 30%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .Sortby li{
+        padding: 20px;
+        display: inline;
+        vertical-align:text-bottom;
+        text-align: center;
+        font-size:medium;
+        text-align: center;
+    }
 }
-.checkout form{
-    margin-left: 10%; 
-    margin-right: 10%; 
-    width: 80%;
-}
-.purchase-success{
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    width: 80%;
-    display:grid;
-    grid-template-columns: 20% 50%;
-    grid-column-gap: 30%;
-}
-
-.about p {
-    margin-left: 30%;
-    margin-right: 30%;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.Sortby li{
-    padding: 20px;
-    display: inline;
-    vertical-align:text-bottom;
-    text-align: center;
-    font-size:medium;
-    text-align: center;
-}
-
 @media only screen and (min-device-width: 300px) and (max-width: 812px) {
     h1{
         font-size: 6vw;
@@ -327,8 +328,6 @@ footer{
         text-align: center;
     }
 }
-
-
 
 
 
