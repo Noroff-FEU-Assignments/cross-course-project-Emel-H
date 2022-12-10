@@ -131,7 +131,7 @@ filter:grayscale();
     float: right;
 }
 
-@media only screen and (min-device-width: 813px) {
+@media only screen and (min-width: 813px) {
     .shippingtext1{
         vertical-align:top;
     }
