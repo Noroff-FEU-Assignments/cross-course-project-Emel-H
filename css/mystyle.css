@@ -244,7 +244,7 @@ filter:grayscale();
     }
 }
 
-@media only screen and (min-width: 813px) {
+
     .shippingtext1{
         vertical-align:top;
     }
@@ -328,7 +328,7 @@ filter:grayscale();
         font-size:medium;
         text-align: center;
     }
-}
+
 
 
 /* this is code borrowed from https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/ to help create a slider */ 
