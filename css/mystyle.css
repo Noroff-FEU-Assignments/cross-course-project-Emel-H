@@ -7,12 +7,10 @@ body{
 }
 .icons{
     text-align: right;
-    display:flex;
-    flex-wrap: wrap;
 }
 .icons img{
-    width: min-content;
-    max-height: 45px;
+    height: 100%;
+    max-height: 35px;
 }
 nav{
     background-color: rgba(10, 54, 65, 0.78);
@@ -27,16 +25,24 @@ hr{
     height:5px;
     background-color: rgba(10, 54, 65, 0.78);
 }
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3vw;
+    font-weight: lighter;
+}
 h2{
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 100;
-    font-size:larger;
+    font-size:2.5vw;
     font-weight: bold;
 }
 h3{
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 100;
-    font-size:medium;
+    font-size:2vw;
+}
+p{
+    font-size: 1.5vw;
 }
 a {
     color: inherit;
@@ -63,20 +69,12 @@ ul {
     font-size: large;
     width: 30%;
     min-width: 100px;
-    filter: invert();
-    
-}
-
-h1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: xx-large;
-    font-weight: lighter;
+    filter: invert();   
 }
 
 .hovereffect img:hover{
 filter:grayscale();
 }
-
 .borders img{
     border:1px solid black;
 }
@@ -133,7 +131,24 @@ filter:grayscale();
     float: right;
 }
 
-@media only screen and (max-width: 1298px) {
+@media only screen and (min-device-width: 300px) and (max-width: 812px) {
+    h1{
+        font-size: 6vw;
+    }
+    h2{
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        font-size:5vw;
+        font-weight: bold;
+    }
+    h3{
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        font-size:4vw;
+    }
+    p{
+        font-size: 3vw;
+    }
     .shippingtext1{
         display: none;
     }
@@ -143,11 +158,11 @@ filter:grayscale();
     }
     .banner{
         display:flex;
-        flex-wrap: wrap;
+        flex-direction: column;
     }
     footer{
         display:flex;
-        flex-wrap: wrap;
+        flex-direction: column;
     }
     .Mainmenu{
         margin-left: 10%;
@@ -156,7 +171,7 @@ filter:grayscale();
         margin-bottom: 10%;
         width: 80%;
         display:flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         grid-row-gap: 20px;
         text-align: center;
     }
@@ -167,7 +182,7 @@ filter:grayscale();
         margin-top: 10%;
         margin-bottom: 10%;
         display:inline-flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         grid-row-gap: 20px;
         text-align: center;
     }
@@ -181,7 +196,7 @@ filter:grayscale();
         margin-bottom: 10%;
         width: 80%;
         display:flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         grid-row-gap: 20px;
     }
     .checkout{
@@ -191,7 +206,7 @@ filter:grayscale();
         margin-bottom: 10%;
         width: 80%;
         display:flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         grid-row-gap: 20px;
     }
     .checkout form{
@@ -210,7 +225,7 @@ filter:grayscale();
         margin-bottom: 10%;
         width: 60%;
         display:flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         grid-row-gap: 20px;
     }
 
@@ -229,7 +244,7 @@ filter:grayscale();
     }
 }
 
-@media only screen and (min-width: 1299px) {
+@media only screen and (min-width: 813px) {
     .shippingtext1{
         vertical-align:top;
     }
@@ -258,7 +273,7 @@ filter:grayscale();
         margin-top: 10%;
         margin-bottom: 10%;
         display:inline-flex;
-        flex-wrap: wrap;
+        flex-flow: wrap;
         grid-row-gap: 40px;
         text-align: center;
     }
