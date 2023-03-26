@@ -14,22 +14,22 @@ body{
     position:absolute;
     top: 30%;
     left: 35%;
-    background-color: rgba(171, 168, 168, 0.545);
+    background-color: rgba(232, 228, 228, 0.545);
     color: black;
     padding-top: 1%;
     padding-left: 1%;
     padding-right: 1%;
     padding-bottom: 2%;
-    width: 30%;
+    width: 20%;
     text-align: center;
 }
 .text-block h1{
-    color: rgb(0, 255, 191);
+    color: rgb(13, 72, 57);
 }
 .text-block a{
     border-radius: 10px;
     background-color: rgba(146, 145, 145, 0.415);
-    color: rgb(20, 240, 185);
+    color: rgb(13, 72, 57);
     text-decoration: none;
     width: 40%;
     padding: 2%;
@@ -68,7 +68,7 @@ body{
 }
 
 .jacket-card:hover {
-    background:rgba(24, 109, 88, 0.6);
+    background: rgb(13, 72, 57);
     color: white;
 }
 
@@ -127,8 +127,8 @@ body{
 }
 .page-description a{
     border-radius: 5px;
-    background-color: rgba(217, 217, 217, 0.4875);
-    color: rgb(20, 240, 185);
+    background-color: rgba(232, 232, 232, 0.651);
+    color:  rgb(13, 72, 57);
     padding: 5%;
     text-decoration: none;
     font-size: 2vw;
