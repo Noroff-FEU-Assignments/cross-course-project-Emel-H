@@ -13,7 +13,7 @@ jacketlist:[
     {
         id:2,
         name: "Snowmobile",
-        description: "RainDays lightweight jacket offers heat-reflected warmth and water repellency. The 3-way fabric is soft, breathable, waterproof, and windproof. It comes with numerous zipped pockets, very practical for small items, and thumbholes to keep the sleeves from moving around. The lightweight jacket also provides reflective elements, which is perfect for a late-night jog.",
+        description: "RainDays Snowmobile jacket offers heat-reflected warmth and water repellency. The 3-way fabric is soft, breathable, waterproof, and windproof. It comes with numerous zipped pockets, very practical for small items, and thumbholes to keep the sleeves from moving around. The lightweight jacket also provides reflective elements, which is perfect for a late-night jog.",
         price: 199,
         currency: "$",
         image:"images/Jacket2.png",

@@ -224,11 +224,24 @@ main ul{
     width: 20%;
 }
 
+#cartSummary {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10%;
+    border-radius: 15px;
+}
+
+#cartSummary td{
+    width: 3%;
+}
+
 .contactus{
     background-color: white;
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
+    
 }
 
 footer {
