@@ -1,47 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>RainyDays - about us</title>
     <meta name="description" content="about us page">
-    <!-- Hotjar Tracking Code for https://visionary-figolla-2ef4d4.netlify.app -->
-<script>
-  (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:3422648,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-      a.appendChild(r);
-  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
+    
   </head>
   <body>
-    <header>
-      <div class="banner">
-        <div class="shippingtext1" class="shippingtext" ><p>Free shipping on orders over $180 | 30 days free returns.</p></div>
-        <div class="sitelogo" ><a href="index.html"><img width="50%" src="images/RainyDays_Logo.png" alt="rainy-days-logo"> </a></div>
-        <div class="icons" ><img height="45" src="images/fav-account-cart.png" alt="icons top page"><a href="check-out.html" ><img height="45" src="images/cart.png" alt="cart icons top page"></a></div>
+    <nav>
+      <div>
+          <a href="index.html"><img src="Images/RainyDays_Logo.png" aria-label="site logo" alt="RainyDays Logo visualizing a mountain and pushing the comfort zone text"></a>
       </div>
-
-      <nav>
-        <ul class="menu" >
-          <li><a href="mens-jacket.html">Women</a></li>
-          <li><a href="mens-jacket.html">Men</a></li>
-          <li><a href="mens-jacket.html">Kids</a></li>
-          <li> <input type="search" class="searchbar" name="search" value="Search" ></li>
-        </ul>
-      </nav>
-      <div class="shippingtext2" class="shippingtext2" ><p>Free shipping on orders over $180 | 30 days free returns.</p></div>
-    </header>
-
-    <main class="about">
-      <img src="images/Jumpskiing.jpg" alt="dramatic picture of man skiing mid jump with full winter gear"
-      width="100%"
-      height="100%">
-      
-      <h1 class="text-center"> About RAINYDAYS</h1>
-      
+      <input id="menu-toggle" type="checkbox">
+      <label aria-label="Navigation Menu" class='menu-button-container' for="menu-toggle">
+          <div class="menu-button">
+              <!-- this is empty because its the container where i draw the three bars for the hamburger menu -->
+          </div>
+      </label>
+      <ul class="menu">
+          <li class="homebutton"><a href="index.html">Home</a></li>
+          <li><a href="mens-jacket.html">Shop Men</a></li>
+          <li><a href="mens-jacket.html">Shop Women</a></li>
+          <li><a href="about.html">About</a></li>
+      </ul>
+      <div>
+        <a href="check-out.html" ><img src="images/cart.png" aria-label="shopping cart" alt="cart icons top page"></a>
+      </div>
+  </nav>
+  <header>
+    <div class="container">
+      <img src="images/Jumpskiing.jpg" alt="dramatic picture of man skiing mid jump with full winter gear">
+      <div class="text-block">
+        <h1> About Rainy Days</h1>
+      </div>
+    </div>
+  </header>
+    <main>
+      <div class="aboutus">
       <p>
         We at RainyDays, believe a life outdoors is a life well-lived!
       </p>
@@ -59,27 +54,19 @@
          So whether you’re new to the outdoors,  dealing with everyday weather, or a seasoned pro, we hope you’ll join us.
         </p>
         
-<div class="text-center"><img src="images/aboutuspic.jpg" alt="about us images showing wholesome fun pictures of people outdoors enjoying and wearing jackets" width="40%" height="40%" ></div>
-<hr>
+
+    <img src="images/aboutuspic.jpg" alt="about us images showing wholesome fun pictures of people outdoors enjoying and wearing jackets" >
+  </div>
 </main>
 <footer>
   <div>
-    <h2 >GET EXCLUSIVE OFFERS AND NEWS!</h2>
-      <input type="email" onfocus="this.value=''" name="emailsubscribe" value="ENTER E-MAIL HERE"><button type="button" onclick="alert('Thank you for subscribing!')">Submit</button>
-      <br>
-      <input type="checkbox" name="C" value="C">    
-           <label><p>Submit your email- to recive updates on new products, news letters, special promotions, sales and many more.</p> </label>
-      <p>By signing up,  you agree on our <u>privacy policy</u>. you may <u>unsubscribe</u> at any time.  </p>
-  </div>
-  <div class="text-center">
     <h3>FOLLOW US</h3>
-      <a href="https://www.instagram.com"><img width="40" src="images/socialmedia_insta.png" ></a>
-      <a href="https://www.facebook.com"><img width="40" src="images/socialmedia_face.png" ></a>
-      <a href="https://www.twitter.com"><img width="40" src="images/socialmedia_twitter.png" ></a>
-      <br><br>
-    <a href="contact.html"><strong>Contact Us</strong></a>
-    <br><br>
-    <a href="about.html"><strong>About Us</strong></a>
+      <a href="https://www.instagram.com"><img src="images/socialmedia_insta.png" ></a>
+      <a href="https://www.facebook.com"><img  src="images/socialmedia_face.png" ></a>
+      <a href="https://www.twitter.com"><img  src="images/socialmedia_twitter.png" ></a>
+      <br>
+    <a href="contact.html"><h3>Contact Us</h3></a>
+    <br>
   </div>
 </footer>
 
